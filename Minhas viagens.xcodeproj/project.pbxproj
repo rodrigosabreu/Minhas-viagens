@@ -12,6 +12,8 @@
 		6299C7A01FB317FB00CD7AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6299C79E1FB317FB00CD7AA3 /* Main.storyboard */; };
 		6299C7A21FB317FB00CD7AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6299C7A11FB317FB00CD7AA3 /* Assets.xcassets */; };
 		6299C7A51FB317FB00CD7AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6299C7A31FB317FB00CD7AA3 /* LaunchScreen.storyboard */; };
+		62A44CC61FB3232F00DD5DA7 /* LocaisViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44CC51FB3232F00DD5DA7 /* LocaisViagemViewController.swift */; };
+		62A44CCA1FB3319100DD5DA7 /* ArmazenamentoDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44CC91FB3319100DD5DA7 /* ArmazenamentoDados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6299C7A11FB317FB00CD7AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6299C7A41FB317FB00CD7AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6299C7A61FB317FB00CD7AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A44CC51FB3232F00DD5DA7 /* LocaisViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaisViagemViewController.swift; sourceTree = "<group>"; };
+		62A44CC91FB3319100DD5DA7 /* ArmazenamentoDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmazenamentoDados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				6299C79A1FB317FB00CD7AA3 /* AppDelegate.swift */,
 				6299C79C1FB317FB00CD7AA3 /* ViewController.swift */,
+				62A44CC91FB3319100DD5DA7 /* ArmazenamentoDados.swift */,
+				62A44CC51FB3232F00DD5DA7 /* LocaisViagemViewController.swift */,
 				6299C79E1FB317FB00CD7AA3 /* Main.storyboard */,
 				6299C7A11FB317FB00CD7AA3 /* Assets.xcassets */,
 				6299C7A31FB317FB00CD7AA3 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6299C79D1FB317FB00CD7AA3 /* ViewController.swift in Sources */,
+				62A44CCA1FB3319100DD5DA7 /* ArmazenamentoDados.swift in Sources */,
 				6299C79B1FB317FB00CD7AA3 /* AppDelegate.swift in Sources */,
+				62A44CC61FB3232F00DD5DA7 /* LocaisViagemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
